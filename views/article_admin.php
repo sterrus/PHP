@@ -8,7 +8,9 @@
 </head>
 <body>
   <div class="container">
-    <h1>Мой первый блог</h1>
+   <header class="header">
+      <h1>Мой первый блог</h1>
+    </header>
     <div class="admin">
         <form method="post" action="index.php?action=add">
             <label>
@@ -23,10 +25,10 @@
                 Содержимое 
                 <textarea class="form-item" name="content" required><?=$article['content']?></textarea>
             </label>
-            <input type="submit" value="Сохранить" class="btn btn--style">
+            <input type="submit" value="Сохранить" class="btn">
         </form>
     </div>
-    <footer>
+    <footer class="footer">
       <p>Мой первый блог<br>Copyright &copy; 2019</p>
     </footer>
   </div>

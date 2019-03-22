@@ -1,7 +1,14 @@
 footer {
   text-align: center;
-    
+  width: 100%;
+  border-bottom: 25px solid green;
 }
+
+/*
+.footer {
+    border-bottom: 25px solid green;
+}
+*/
 
 .article {
     margin-top: 50px;
@@ -9,31 +16,48 @@ footer {
 
 .admin-table {
     width: 100%;
-    
 }
+
+.wrapper {
+    min-height: 700px;
+}
+
+.admin_in {
+    float: right;
+    position: relative;
+    top: -40px;
+}
+
 
 .form-items {
     display: flex;
     width: 500px;
 }
 
-.admin{
-
+.admin {
      display: flex;
      flex-direction: column;
      width: 300px;
 }
 
+/*
+.header {
+    border-bottom: green;
+}
+*/
+
 
 .form-item {
-    width: 800px;
+    width: 930px;
 }
+
 textarea {
     height: 500px;
 }
 
 .container h1 {
     text-align: center;
+    background-color: blue;
 }
 
 .btn {
