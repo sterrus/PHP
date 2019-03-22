@@ -9,7 +9,7 @@
 <body>
   <div class="container">
     <h1>Мой первый блог</h1>
-    <div>
+    <div class="admin">
         <form method="post" action="index.php?action=add">
             <label>
                 Название
@@ -23,7 +23,7 @@
                 Содержимое 
                 <textarea class="form-item" name="content" required><?=$article['content']?></textarea>
             </label>
-            <input type="submit" value="Сохранить" class="btn">
+            <input type="submit" value="Сохранить" class="btn btn--style">
         </form>
     </div>
     <footer>
