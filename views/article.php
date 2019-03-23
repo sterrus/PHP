@@ -8,8 +8,10 @@
 </head>
 <body>
   <div class="container">
-    <h1>Мой первый блог</h1>
-    <div>
+   <header class="header">
+        <h1>Мой первый блог</h1>
+    </header>
+    <div class="wrapper">  
       <div class="article">
         <h3>
           <?=$article['title']?>

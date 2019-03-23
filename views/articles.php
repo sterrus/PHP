@@ -8,9 +8,11 @@
 </head>
 <body>
   <div class="container">
-    <h1>Мой первый блог</h1>
+   <header class="header">
+      <h1>Мой первый блог</h1>
+    </header>
     <a class="admin_in" href="admin">Авторизация</a>
-    <div>
+    <div class="wrapper">
       <?php foreach($articles as $a): ?>
       <div class="article">
         <h3>

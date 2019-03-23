@@ -11,20 +11,14 @@
    <header class="header">
       <h1>Мой первый блог</h1>
     </header>
-    <div class="admin">
-        <form method="post" action="index.php?action=add">
-            <label>
-                Название
-                <input type="text" name="title" value="<?=$article['title']?>" class="form-item" autofocus required>
-            </label>
-            <label>
-                Дата
-                <input type="date" name="date" value="<?=$article['date']?>" class="form-item" required>
-            </label>
-            <label>
-                Содержимое 
-                <textarea class="form-item" name="content" required><?=$article['content']?></textarea>
-            </label>
+    <div class="wrapper__form">
+        <form class="form"method="post" action="index.php?action=add">
+            <label for="name">Название</label>
+            <input type="text" name="title" value="" id="name"<?=$article['title']?> class="form-item" autofocus required>
+            <label for="date">Дата</label>
+            <input type="date" name="date" value="" id="date"<?=$article['date']?> class="form-item" required>
+            <label for="massege">Cодержимое</label>
+            <textarea class="form-item" name="content" id="massege" required><?=$article['content']?></textarea>
             <input type="submit" value="Сохранить" class="btn">
         </form>
     </div>

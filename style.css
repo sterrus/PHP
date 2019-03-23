@@ -19,7 +19,7 @@ footer {
 }
 
 .wrapper {
-    min-height: 700px;
+    min-height: 600px;
 }
 
 .admin_in {
@@ -29,10 +29,57 @@ footer {
 }
 
 
-.form-items {
-    display: flex;
-    width: 500px;
+.wrapper__form {
+    width: 100%;
+    margin: 0 auto;
 }
+.form {
+    background: #eee;
+    padding: 20px;
+    font-family: Helvetica, arial, sans-serif;
+}
+
+form fieldset {
+   padding: 40px;
+    border: 5px solid #green;
+}
+form input, form textarea {
+    display: block;
+    margin-bottom: 20px;
+    text-rendering: optimizeLegibility;
+    
+}
+
+form label {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    border: 1px solid #b90707;
+}
+
+textarea {
+/*    width: 500px;*/
+    height: 350px;
+}
+
+form input[type="submit"] {
+    border: none;
+    height: 40px;
+    padding: 0 20px;
+    background-color: slategrey;
+    border: 1px solid #d4730c;
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    cursor: pointer;
+    
+}
+
 
 .admin {
      display: flex;
@@ -40,25 +87,21 @@ footer {
      width: 300px;
 }
 
-/*
 .header {
-    border-bottom: green;
+   text-align: center;
+    background-color: aquamarine;
+    height: 100px
 }
-*/
 
 
 .form-item {
     width: 930px;
 }
 
-textarea {
-    height: 500px;
+tr {
+    border: 3px solid #eee;
 }
 
-.container h1 {
-    text-align: center;
-    background-color: blue;
-}
 
 .btn {
     display: block;

@@ -8,10 +8,12 @@
 </head>
 <body>
   <div class="container">
-    <h1>Мой первый блог</h1>
+   <header class="header">
+        <h1>Мой первый блог</h1>
+    </header>
     <div class="wrapper">
-        <a href="index.php?action=add">Добавить статью</a>
-        <a href="http://localhost/blog/">Возврат</a>
+       <button><a href="index.php?action=add">Добавить статью</a></button>
+        <button><a href="http://localhost/blog/">Возврат</a></button>
         <table class="admin-table">
             <tr>
                 <th>Дата</th>
